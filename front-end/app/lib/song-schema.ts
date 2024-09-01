@@ -1,7 +1,7 @@
 import { z } from 'zod'
 
 export const SONG_SCHEMA = z.object({
-  uuid: z.string().optional(),
+  uuid: z.string(),
   title: z.string(),
   artist: z.string(),
   album: z.string()
