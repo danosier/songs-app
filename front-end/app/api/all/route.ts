@@ -1,8 +1,10 @@
 import { Song } from '@/app/lib/song-schema'
 import { NextResponse } from 'next/server'
 
+const API_URL = process.env.GET_API_URL ?? ''
+
 export async function GET(): Promise<NextResponse<Song[]>> {
-  const res = await fetch('https://hbghdpmggwgydxiftvyd4mtxxa0zrcfa.lambda-url.us-east-1.on.aws/', {
+  const res = await fetch(API_URL, {
     method: 'GET'
   })
 

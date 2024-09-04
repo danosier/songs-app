@@ -56,3 +56,7 @@ custom:
   serverless-dynamodb:
     start:
       migrate: true
+      port: 8001
+
+  serverless-offline:
+    httpPort: 8000
