@@ -1,0 +1,58 @@
+service: 'api'
+
+frameworkVersion: '3'
+
+# Serverless plugins
+plugins:
+  # - serverless-esbuild
+  - serverless-dynamodb
+  - serverless-plugin-typescript
+  - serverless-offline     # this plugin enables us to run our application and Lambda functions locally
+
+# Cloud provider
+provider: 
+  name: 'aws'
+  runtime: 'nodejs20.x'
+  region: 'us-east-1'
+  # profile: local
+  environment:
+    IS_LOCAL: true
+
+resources: # CloudFormation template syntax
+  Resources:
+    songTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: 'song-table'
+        AttributeDefinitions:
+          - AttributeName: uuid
+            AttributeType: S
+        KeySchema:
+          - AttributeName: uuid
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+
+package: 
+  individually: true
+
+# Serverless functions
+functions: 
+  get-all: 
+    handler: app/get-all-music.handler
+    events:
+      - httpApi:
+          path: /
+          method: get
+  post-song: 
+    handler: app/post-song.handler
+    events:
+      - httpApi:
+          path: /
+          method: post
+
+custom:
+  serverless-dynamodb:
+    start:
+      migrate: true

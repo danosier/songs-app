@@ -50,24 +50,30 @@ This documentation is a just a taste of what I might normally include. I might i
 
 ## Running locally
 
-### Prerequisite
+### Prerequisites
 Node.js must be installed on your machine, was built using node 20.X
 
-[Docker](https://www.docker.com) must be installed and running
+[Docker](https://www.docker.com) must be installed
 
 AWS CLI needs to be installed and configured for use with the account
+
+Follow setup steps [here](https://www.npmjs.com/package/serverless-dynamodb) (Java, not docker)
 
 ### Running instructions
 
 1. Install dependencies
 `npm install`
 
-2. Start dev mode
-`npm run dev`
+2. Start the lambdas and DDB
+`npx sls offline start`
 
-3. Browse to [http://localhost:3000](http://localhost:3000)
+3. Verify you have the song table by running
+`aws dynamodb list-tables --endpoint-url http://localhost:8000`
+
+    a. Note: if this returns an empty array, something has gone wrong with configuration and setup
 
 
 
 
 
+ 
