@@ -1,5 +1,3 @@
-import { Song } from '../lib/song-schema'
-
 export default function SongTitle({ 
   title
 }: { title: string }) {
