@@ -1,5 +1,18 @@
 # Rockbot Tech Screen - API
 
+* [General](#general)
+* [Hosting](#hosting)
+* [Caching](#caching)
+* [Application Scaling](#application-scaling)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Libraries](#libraries)
+* [Documentation](#documentation)
+* [Running locally](#running-locally)
++ [Prerequisites](#prerequisites)
++ [Running instructions](#running-instructions)
+* [Learning](#learning)
+
 ## General
 
 This API has a simple POST which allows a consumer of the API would use to add more songs to the DB.

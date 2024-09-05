@@ -1,5 +1,14 @@
 # Rockbot Tech Screen - UI
 
+* [General](#general)
+* [Documentation](#documentation)
+* [Running locally](#running-locally)
+  + [Prerequisite](#prerequisite)
+  + [Running instructions](#running-instructions)
+* [Hosting & Deployment](#hosting--deployment)
+* [Testing](#testing)
+* [Libraries](#libraries)
+
 ## General
 
 This UI is meant to be an extremely basic frontend for a "songs" API.
