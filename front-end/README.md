@@ -45,5 +45,7 @@ I won't drain all the libs included here, I think most are self explanatory.
 
 I did include Zod to validate the shape of objects coming back from the API. Since it's backed by DDB, I know that the shape might not be strict. (Note: validating like this is _probably_ not necessary, but I figured I'd show on front and back)
 
+I used react-hook-form to help validate and display errors related to the POST for a new song
+
 Some of my other favorite libs are [day.js](https://day.js.org), [faker](https://fakerjs.dev) (controversy and all), [factory.ts](https://github.com/willryan/factory.ts)
 

@@ -8,3 +8,4 @@ export const SONG_SCHEMA = z.object({
 })
 
 export type Song = z.infer<typeof SONG_SCHEMA>
+export type POST_Song = Omit<Song, 'uuid'>
