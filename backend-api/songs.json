@@ -1,0 +1,32 @@
+[
+  {
+      "album": "10,000 Days",
+      "artist": "Tool",
+      "uuid": "53f7c6c9-8828-487b-a66e-107a246edd16",
+      "title": "Jambi"
+  },
+  {
+      "album": "Running With Scissors",
+      "artist": "\"Weird\" Al Yankovic",
+      "uuid": "6b788293-bf55-4d43-a272-10b3983c002f",
+      "title": "The Saga Begins"
+  },
+  {
+      "album": "Combat Rock",
+      "artist": "The Clash",
+      "uuid": "6b09ec32-ba71-49ac-94d5-a170d034eeb4",
+      "title": "Rock the Casbah"
+  },
+  {
+      "album": "There Is Nothing Left to Lose",
+      "artist": "Foo Fighters",
+      "uuid": "d8c97a11-94df-4c54-a1e6-783b1e3eb1dd",
+      "title": "Learn to Fly"
+  },
+  {
+      "album": "Highway to Hell",
+      "artist": "AC/DC",
+      "uuid": "d7a70ea1-9721-45a0-81b9-6db88b6e19b0",
+      "title": "Highway to Hell"
+  }
+]

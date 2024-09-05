@@ -57,6 +57,12 @@ custom:
     start:
       migrate: true
       port: 8001
+      seed: true
+    seed:
+      songs:
+        sources:
+          - table: 'song-table'
+            sources: [./songs.json]
 
   serverless-offline:
     httpPort: 8000
