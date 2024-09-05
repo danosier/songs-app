@@ -74,6 +74,10 @@ Follow setup steps [here](https://www.npmjs.com/package/serverless-dynamodb) (Ja
 
 
 
+## Learning
+
+I learned how to get Lambdas and DDB up and running locally, with seeds! That was fun. Good to know for the future.
+
 
 
  
