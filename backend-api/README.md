@@ -1,5 +1,4 @@
 # Rockbot Tech Screen - API
-
 * [General](#general)
 * [Hosting](#hosting)
 * [Caching](#caching)
@@ -9,8 +8,8 @@
 * [Libraries](#libraries)
 * [Documentation](#documentation)
 * [Running locally](#running-locally)
-+ [Prerequisites](#prerequisites)
-+ [Running instructions](#running-instructions)
+  + [Prerequisites](#prerequisites)
+  + [Running instructions](#running-instructions)
 * [Learning](#learning)
 
 ## General
