@@ -1,4 +1,4 @@
-# Rockbot Tech Screen - UI
+# Songs App - UI
 
 * [General](#general)
 * [Documentation](#documentation)

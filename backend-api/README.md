@@ -1,4 +1,4 @@
-# Rockbot Tech Screen - API
+# Songs App - API
 * [General](#general)
 * [Hosting](#hosting)
 * [Caching](#caching)

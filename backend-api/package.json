@@ -1,5 +1,5 @@
 {
-  "name": "rockbot-tech-screen-backend-api",
+  "name": "songs-app-backend-api",
   "version": "0.1.0",
   "scripts": {
     "build:iac": "tsc --project tsconfig.iac.json",

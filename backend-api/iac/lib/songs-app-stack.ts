@@ -12,7 +12,7 @@ interface FnWithAccess {
   access: 'READ' | 'WRITE'
 }
 
-export class RockbotTechScreenStack extends Stack {
+export class SongsAppStack extends Stack {
   table: TableV2
   lambdaFns: FnWithAccess[] = []
 
